@@ -181,44 +181,90 @@
      width:180px;
      height:100px;
    }
-   /* Responsive columns */
-   @media screen and (max-width: 600px) {
-     .column {
-       width: 100%;
-       display: block;
-       margin-bottom: 20px;
-     }
-   }
-   
-   /* Style the counter cards */
-   .card {
-     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-     padding: 16px;
-     text-align: center;
-     background-color: #f1f1f1;
-   }
-   .footer{
+   @media screen and (max-width: 360px) {
+    .header{
      width:100%;
-     height:100px;
-     background-color:white;
-   }
-   .footer-link{
-     margin:30px;
-     padding:40px;
-     color:dimgray;
-   }
-   .footer-text{
-     margin:40px;
-     color:dimgray;
-   }
-   /* Change navbar styling on small viewports */
-   @media (max-width: 991.98px) {
-       .navbar {
-           background: #fff;
-       }
-   
+     height:auto;
+    }
 
-       .navbar , .navbar .nav-link {
-           color: darkgrey;
-       }
+    input{
+      width:100%;
+      
+    }
+    .column {
+      width: 50%;
+      display: block;
+      margin-bottom: 40px;
+      
+    }
+    iframe {
+      width:50%;
+      height:auto;
+      margin-top:250px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .card{
+      width:250px;
+      height:auto;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .card-img{
+      width:50%;
+      height: 50%;
+    }
+    #How_it_works{
+      width:100%;
+      height:500px;
+      text-align: center;
    }
+    .footer{
+      bottom: 0;
+      
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  .footer{
+    width:100%;
+    height:100px;
+    background-color:transparent;
+  }
+  .footer-link{
+    margin:30px;
+    padding:40px;
+    color:dimgray;
+  }
+  .footer-text{
+    margin:40px;
+    color:dimgray;
+  }
+  
+  @media (max-width: 660px) {
+   .card{
+     width:100%;
+     height:auto;
+     margin-left: auto;
+     margin-right: auto;
+   }
+   .card-img{
+     width:80%;
+   }
+   .row {margin: 10px -15px ;}
+   .column {
+     width: 90%;
+     display: block;
+     margin-bottom: 40px;
+     
+   }
+      .navbar , .navbar .nav-link {
+          color: darkgrey;
+      }
+  }
